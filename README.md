@@ -1,4 +1,4 @@
-runlater.js runs code asynchronously at a later time. This library is used specifically for cleanup in mojo.js.
+runlater.js runs code asynchronously at a later time. This library is used specifically for cleanup in mojo.js. [![Build Status](https://travis-ci.org/classdojo/runlater.js.png)](https://travis-ci.org/classdojo/runlater.js)
 
 ```javascript
 var runLater = require("runlater")(20);

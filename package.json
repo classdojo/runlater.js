@@ -1,0 +1,22 @@
+{
+  "name": "runlater",
+  "version": "0.0.1",
+  "description": "runlater.js runs code asynchronously at a later time. This library is used specifically for cleanup in mojo.js.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/classdojo/runlater.js.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/classdojo/runlater.js/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "expect.js": "~0.2.0"
+  }
+}
