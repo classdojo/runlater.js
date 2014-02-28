@@ -27,8 +27,19 @@ describe("runlater#", function () {
     }, 7);
   });
 
-  it("can run multiple batches", function (next) {
-    // TODO
-    next();
+
+
+  it("can dispose a fn before it's called", function (next) {
+
+    var ticks = 0;
+
+    rl(function () {
+      ticks++;
+    }).dispose();
+
+    setTimeout(function () {
+      expect(ticks).to.be(0);
+      next();
+    }, 7);
   });
 });
