@@ -1,6 +1,6 @@
 {
   "name": "runlater",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "runlater.js runs code asynchronously at a later time. This library is used specifically for cleanup in mojo.js.",
   "main": "./lib/index.js",
   "scripts": {
